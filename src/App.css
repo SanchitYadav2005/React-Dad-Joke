@@ -15,3 +15,10 @@
 .nav-bar h1{
   font-weight: bolder;
 }
+
+.main-content{
+  text-align: center;
+  margin-top: 3em;
+  font-size: 2em;
+  font-weight: bolder;
+}
