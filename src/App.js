@@ -1,5 +1,7 @@
 import React from "react";
 import axios from "axios";
+import Navbar from "./components/Navbar";
+import Style from "./App.css"
 
 
 export default function App(){
@@ -15,6 +17,8 @@ export default function App(){
 
 
   return(
-    <h1>hello</h1>
+    <div>
+      <Navbar />
+    </div>
   )
 }
