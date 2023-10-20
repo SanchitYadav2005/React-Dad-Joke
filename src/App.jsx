@@ -26,9 +26,9 @@ function App() {
   
   return(
     <>
-      {data.map(m=>{
+      {data.map(m=>(
         <li>{m.id}</li>
-      })}
+      ))}
     </>
   );
 }
