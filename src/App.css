@@ -1,24 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 *{
-  font-family: 'Roboto Mono', monospace;
-  margin: 0%;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.nav-bar{
-  text-align: center ;
-  background-image: url(https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmFja2dyb3VuZCUyMGltYWdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: 100%;
-  padding: 1em;
-}
-.nav-bar h1{
-  font-weight: bolder;
-}
-
-.main-content{
+.container{
+  margin-left: 26%;
   text-align: center;
-  margin-top: 3em;
-  font-size: 2em;
-  font-weight: bolder;
+  /* margin-top: 20%; */
+  width: 500px;
+  padding: 1em 3em 1em 3em ;
+  border-radius: 20px;
+  background-image: linear-gradient(to right top, #ffbe0b, #ffac00, #ff9a00, #ff8700, #fe7300, #ff6414, #ff5521, #ff432c, #ff343e, #ff244e, #ff135e, #ff006e);
 }
+
+h1{
+  font-size: 1em;
+  color: #ffffff;
+}
+
