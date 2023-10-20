@@ -16,19 +16,19 @@ function App() {
           }
         })
         setData(res.data)
-        // console.log(data)
       }catch(error){
         console.log(error)
       }
     }
     getData()
-  })
+  },[])
   
   return(
     <>
-      {data.map(m=>(
-        <li>{m.id}</li>
-      ))}
+      <div className="container">
+        <h1>{data.joke}</h1>
+        <button onClick={()=> window.location.reload(true)}>Next</button>
+      </div>
     </>
   );
 }
